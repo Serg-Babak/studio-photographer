@@ -1,0 +1,44 @@
+
+.main__container {
+    padding: 441px 0px 60px 0px;
+    background-image: url("../img-aperture/Aperture.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.main__company {
+    @include font(400,14px,20px);
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    }
+.main__title {
+    @include font(400,54px,59px);
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+.main__description {
+    @include font(400,14px,20px);
+    text-align: center;
+    flex-direction: column;
+    color: #C0C0C0;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.main__svg {
+    height: 16px;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    width: 200px;
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .main__container {
+        background-image: url('../img-aperture/Aperture@2x.jpg');
+    }
+}

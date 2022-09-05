@@ -1,0 +1,32 @@
+.main__himalayas {
+    background-image: url("../img-aperture/Himalayas.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.main__himalayas-section {
+    float: right;
+    padding: 250px 106px 250px;
+}
+.main__himalayas-title {
+    @include font(400,14px,20px);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+.main__himalayas-description {
+    width: 241px;
+    @include font(400,14px,20px);
+    color: #C0C0C0;
+    position: relative;
+}
+.main__himalayas-svg {
+    height: 16px;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    width: 200px;
+}

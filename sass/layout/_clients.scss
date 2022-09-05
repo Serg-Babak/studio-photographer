@@ -1,0 +1,28 @@
+.main__clients {
+
+}
+.main__clients-section {
+    padding: 113px 120px 100px 120px;
+}
+.main__clients-ttile {
+    @include font(400,54px,59px);
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.main__clients-description {
+    @include font(400,24px,30px);
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.main__clients-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    padding: 40px 0;
+}
+.main__clients-svg {
+}

@@ -1,0 +1,53 @@
+.main__tools {
+    background-image: url("../img-aperture/tools.jpg") ;
+    background-repeat: no-repeat;
+    background-position:right ;
+    position: relative;
+}
+.main__tools-section {
+    display: flex;
+}
+.main__block {
+    padding:170px 65px 135px 50px;
+}
+.main__tools-pre-title {
+    @include font(400,14px,20px);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.main__tools-title {
+    @include font(400,28px,32px);
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.main__tools-decription {
+    @include font(400,14px,20px);
+    color: #FFFFFF;
+    width: 350px;
+    margin-bottom: 20px;
+}
+.main__example-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include font(400,16px,20px);
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 143px;
+    height: 42px;
+    padding: 20px 9px 20px 13px;
+}
+.main__tools-img {
+
+}
+.main__tools-svg { 
+    height: 16px;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    width: 200px;
+}

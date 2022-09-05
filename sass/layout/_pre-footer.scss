@@ -1,0 +1,38 @@
+.main__help {
+    background-color: black;
+    height: 414px;
+}
+.main__help-section{
+    padding: 113px 310px 108px;
+}
+.main__help-title {
+    @include font(400,40px,42px);
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.main__help-description {
+    @include font(400,24px,30px);
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+.main__help-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include font(400,16px,20px);
+    letter-spacing: 0.4px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 14px;
+    margin: auto;
+    padding:  9px 25px 13px 25px;
+    transition: all 0.3s ease 0s;
+    &:hover{
+        border: 2px solid #ffffff;
+        background-color: #000000;
+        color: #ffffff;
+        box-shadow: 0px 0px 15px 3px rgba(255,255,255,0.88);
+    }
+}

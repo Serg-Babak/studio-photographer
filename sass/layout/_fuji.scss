@@ -1,0 +1,32 @@
+.main__fuji {
+    background-image: url("../img-aperture/Fuji.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.main__fuji-section {
+    float: right;
+    padding: 260px 62px 260px;
+}
+.main__fuji-title {
+    @include font(400,14px,20px);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+.main__fuji-description {
+    width: 400px;
+    @include font(400,14px,20px);
+    color: #C0C0C0;
+    position: relative;
+}
+.main__fuji-svg {
+    height: 16px;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    width: 200px;
+}
